@@ -1,5 +1,5 @@
 Feature: login validation
-
+@login
   Scenario: Verify valid credentials
     Given user is on the login page
     When the user tries to login the application with "Admin" and "admin123"
